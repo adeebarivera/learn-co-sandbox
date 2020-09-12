@@ -4,6 +4,7 @@ class Api
 
   def self.get_makeup
     res = RestClient.get(BASE_URL)
+    
     binding.pry
   end
 end
